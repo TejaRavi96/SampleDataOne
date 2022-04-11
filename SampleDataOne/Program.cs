@@ -20,10 +20,10 @@ namespace SampleDataOne
                         FLipCoin flipCoin = new FLipCoin();
                         flipCoin.Flip();
                         break;
-                    //case 2:
-                        //LeapYear year = new LeapYear();
-                      //  year.CheckLeapYear();
-                        //break;
+                    case 2:
+                        LeapYear year = new LeapYear();
+                        year.CheckLeapYear();
+                        break;
                     default:
                         Console.WriteLine("Please Enter a Valid Option To Execute");
                         break;
